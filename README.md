@@ -10,7 +10,7 @@ Limpeza de dados, análise exploratória, pré-processamento, treinamento e vali
 
 <h2 id = 'objetivo'>Objetivo</h2>
 
-Este projeto teve como objetivo realizar uma análise exploratória para investigar a relação da variável dependente "stroke" com as demais variáveis presentes no banco de dados. Com base nessa análise, foi construído um modelo de machine learning de classificação capaz de prever a ocorrência de um AVC com base em informações pré-informadas, como idade, taxa de glicose no sangue e se o paciente é hipertenso, entre outras características e em seguida, avaliar as variáveis que tiveram maior influência na decisão do modelo, ou seja, aquelas que tem maior peso na previsão de ocorrência de AVC.
+Este projeto teve como objetivo realizar uma análise exploratória para investigar a relação da variável dependente "stroke" com as demais variáveis presentes no banco de dados. Com base nessa análise, construir um modelo de machine learning de classificação capaz de prever a ocorrência de um AVC com base em informações pré-informadas, como idade, taxa de glicose no sangue e se o paciente é hipertenso, entre outras características e em seguida, avaliar as variáveis que tiveram maior influência na decisão do modelo, ou seja, aquelas que tem maior peso na previsão de ocorrência de AVC.
 
 <h2 id = 'notebook1>Notebook 1 - Limpeza e Análise Exploratória</h2>
 Neste notebook, está contida toda a limpeza dos dados, incluindo o preenchimento de valores nulos, bem como a análise exploratória, com foco na variável "stroke" e sua relação ou comportamento em conjunto com as outras variáveis. O objetivo dessa análise é avaliar as diferenças entre pessoas que tiveram AVC e as que não tiveram com a sustentação de testes estatísticos.
