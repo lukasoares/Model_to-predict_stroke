@@ -14,9 +14,9 @@ Neste notebook, está contida toda a limpeza dos dados, incluindo o preenchiment
 Como parte do pré-processamento, foi realizada a vetorização do banco de dados, bem como o teste de correlação de Pearson e a aplicação do método "SMOTE" para balancear a variável dependente "stroke" por meio da criação de dados sintéticos, a fim de evitar o overfitting em uma das categorias (teve ou não teve AVC).
 <img src ="https://user-images.githubusercontent.com/110298606/226354254-5655970e-5922-4e08-928e-bccacf21df47.png" width = 600px height = 300px/>
 Para a construção do modelo, foi utilizado o método "nested cross-validation" para separar o conjunto de dados entre treinamento e teste, sendo que este último foi utilizado apenas para a validação dos modelos. Após essa divisão, os hiperparâmetros de cada modelo foram otimizados e, em seguida, cada modelo foi avaliado utilizando a métrica "F1 Score" e uma matriz de confusão. 
-<img src ="https://user-images.githubusercontent.com/110298606/226354611-895d9fb8-9d60-47ce-b2ab-4b05f1baa2b5.png" width = 300px height = 150px/>
+<img src ="https://user-images.githubusercontent.com/110298606/226354611-895d9fb8-9d60-47ce-b2ab-4b05f1baa2b5.png" width = 250px height = 150px/>
 Por fim, após a seleção do melhor modelo, foram realizadas análises para identificar as variáveis que tiveram maior peso na classificação do modelo.
-<img src ="https://user-images.githubusercontent.com/110298606/226355746-8a474baa-735f-4aa9-b355-2d8997e3917f.png" width = 300px height = 400px/>
+<img src ="https://user-images.githubusercontent.com/110298606/226355746-8a474baa-735f-4aa9-b355-2d8997e3917f.png" width = 250px height = 400px/>
 <h2>Conclusão</h2>
 
 O modelo SVC (Support Vector Classification) foi o que obteve a maior taxa de acerto na previsão de pessoas que sofreram AVC (86%), com um F1 Score global de 80%. Entretanto, é necessário destacar que a base de dados original apresenta um desequilíbrio considerável, o que pode ter afetado o desempenho do modelo. Assim, o aumento da amostra de pessoas que sofreram AVC poderia contribuir para aprimorar a performance do modelo.
