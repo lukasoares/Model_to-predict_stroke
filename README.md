@@ -8,7 +8,7 @@ Este projeto teve como objetivo realizar uma análise exploratória para investi
 
 <h2>Notebook 1 - Limpeza e Análise Exploratória</h2>
 Neste notebook, está contida toda a limpeza dos dados, incluindo o preenchimento de valores nulos, bem como a análise exploratória, com foco na variável "stroke" e sua relação ou comportamento em conjunto com as outras variáveis. O objetivo dessa análise é avaliar as diferenças entre pessoas que tiveram AVC e as que não tiveram com a sustentação de testes estatísticos.
-<img src ="https://user-images.githubusercontent.com/110298606/226346294-0d7e2418-384f-43c5-a28d-771cfd9cf7fe.png" width = 800px/>
+<img src ="https://user-images.githubusercontent.com/110298606/226346294-0d7e2418-384f-43c5-a28d-771cfd9cf7fe.png" width = 700px/>
 
 <h2>Notebook 2 - Pré-processamento e Construção do Modelo</h2>
 Como parte do pré-processamento, foi realizada a vetorização do banco de dados, bem como o teste de correlação de Pearson e a aplicação do método "SMOTE" para balancear a variável dependente "stroke" por meio da criação de dados sintéticos, a fim de evitar o overfitting em uma das categorias (teve ou não teve AVC).
