@@ -23,7 +23,7 @@ Para a construção do modelo, foi utilizado o método "nested cross-validation"
 <img src ="https://user-images.githubusercontent.com/110298606/226354611-895d9fb8-9d60-47ce-b2ab-4b05f1baa2b5.png" width = 200px height = 150px/>
 Por fim, após a seleção do melhor modelo, foram realizadas análises para identificar as variáveis que tiveram maior peso na classificação do modelo.
 <img src ="https://user-images.githubusercontent.com/110298606/226355746-8a474baa-735f-4aa9-b355-2d8997e3917f.png" width = 200px height = 350px/>
-<h2>Conclusão id = 'conclusão'</h2>
+<h2 id = 'conclusão'>Conclusão</h2>
 
 O modelo SVC (Support Vector Classification) foi o que obteve a maior taxa de acerto na previsão de pessoas que sofreram AVC (86%), com um F1 Score global de 80%. Entretanto, é necessário destacar que a base de dados original apresenta um desequilíbrio considerável, o que pode ter afetado o desempenho do modelo. Assim, o aumento da amostra de pessoas que sofreram AVC poderia contribuir para aprimorar a performance do modelo.
 
