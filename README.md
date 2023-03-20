@@ -16,7 +16,7 @@ Este projeto teve como objetivo realizar uma análise exploratória para investi
 Neste notebook, está contida toda a limpeza dos dados, incluindo o preenchimento de valores nulos, bem como a análise exploratória, com foco na variável "stroke" e sua relação ou comportamento em conjunto com as outras variáveis. O objetivo dessa análise é avaliar as diferenças entre pessoas que tiveram AVC e as que não tiveram com a sustentação de testes estatísticos.
 <img src ="https://user-images.githubusercontent.com/110298606/226348853-b103ff31-001f-4f07-a8e7-94603529bdc6.png" width = 600px height = 300px/>
 
-<h2 id = 'notebook2>Notebook 2 - Pré-processamento e Construção do Modelo</h2>
+<h2 id = 'notebook2'><a href='https://github.com/lukasoares/Model_to_predict_stroke/blob/main/Notebook_2_Preprocessamento_e_construcao_do_modelo/%20Modelagem_DataStroke.ipynb'>Notebook 2 - Análise Exploratória, Escolha de Modelo e Validação</a></h2>
 Como parte do pré-processamento, foi realizada a vetorização do banco de dados, bem como o teste de correlação de Pearson e a aplicação do método "SMOTE" para balancear a variável dependente "stroke" por meio da criação de dados sintéticos, a fim de evitar o overfitting em uma das categorias (teve ou não teve AVC).
 <img src ="https://user-images.githubusercontent.com/110298606/226354254-5655970e-5922-4e08-928e-bccacf21df47.png" width = 600px height = 300px/>
 Para a construção do modelo, foi utilizado o método "nested cross-validation" para separar o conjunto de dados entre treinamento e teste, sendo que este último foi utilizado apenas para a validação dos modelos. Após essa divisão, os hiperparâmetros de cada modelo foram otimizados e, em seguida, cada modelo foi avaliado utilizando a métrica "F1 Score" e uma matriz de confusão. 
