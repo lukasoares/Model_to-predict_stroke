@@ -12,7 +12,7 @@ Neste notebook, está contida toda a limpeza dos dados, incluindo o preenchiment
 
 <h2>Notebook 2 - Pré-processamento e Construção do Modelo</h2>
 Como parte do pré-processamento, foi realizada a vetorização do banco de dados, bem como o teste de correlação de Pearson e a aplicação do método "SMOTE" para balancear a variável dependente "stroke" por meio da criação de dados sintéticos, a fim de evitar o overfitting em uma das categorias (teve ou não teve AVC).
-
+<img src ="https://user-images.githubusercontent.com/110298606/226354254-5655970e-5922-4e08-928e-bccacf21df47.png" width = 600px height = 300px/>
 Para a construção do modelo, foi utilizado o método "nested cross-validation" para separar o conjunto de dados entre treinamento e teste, sendo que este último foi utilizado apenas para a validação dos modelos. Após essa divisão, os hiperparâmetros de cada modelo foram otimizados e, em seguida, cada modelo foi avaliado utilizando a métrica "F1 Score" e uma matriz de confusão. Por fim, após a seleção do melhor modelo, foram realizadas análises para identificar as variáveis que tiveram maior peso na classificação do modelo.
 
 <h2>Conclusão</h2>
@@ -22,3 +22,4 @@ O modelo SVC (Support Vector Classification) foi o que obteve a maior taxa de ac
 Ao examinar os dois melhores modelos, observou-se que ambos concederam grande importância às variáveis "age", "hypertension", "avg_glucose_level" e "heart_disease". Além disso, surpreendentemente, a variável "work_type_Govt_job" também exerceu uma influência significativa na probabilidade de ocorrência de AVC.
 
 Por outro lado, é relevante destacar a pequena influência da variável "bmi" na probabilidade de uma pessoa sofrer AVC. Tal constatação sugere que o índice de massa corporal pode não ser um fator determinante para prever o risco de AVC em comparação com outras variáveis, como idade, hipertensão, nível médio de glicose e doença cardíaca.
+![Screenshot_stroke3](https://user-images.githubusercontent.com/110298606/226354254-5655970e-5922-4e08-928e-bccacf21df47.png)
